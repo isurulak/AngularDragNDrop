@@ -1,0 +1,124 @@
+.col-container {
+  display: table;
+  width: 100%;
+}
+
+.col {
+  display: table-cell;
+  padding: 16px;
+  width: 50%;
+  vertical-align: middle;
+}
+
+.fLeft {
+  float: left;
+}
+
+.fRight {
+  float: right;
+}
+
+.btn {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  width: fit-content;
+}
+
+.drag-list {
+  width: 100%;
+  max-width: 100%;
+  border: solid 1px #ccc;
+  min-height: 60px;
+  display: flex;
+  flex-direction: row;
+  background: white;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.drag-box {
+  padding: 20px 10px;
+  border-right: solid 1px #ccc;
+  color: rgba(0, 0, 0, 0.87);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  cursor: move;
+  background: white;
+  font-size: 14px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+
+.cdk-drag-preview {
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 5px -3px rgba(0, 0, 0, 0.2), 0 8px 10px 1px rgba(0, 0, 0, 0.14), 0 3px 14px 2px rgba(0, 0, 0, 0.12);
+}
+
+.cdk-drag-placeholder {
+  opacity: 0;
+}
+
+.cdk-drag-animating {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.drag-box:last-child {
+  border: none;
+}
+
+.drag-list.cdk-drop-list-dragging .drag-box:not(.cdk-drag-placeholder) {
+  transition: transform 250ms cubic-bezier(0, 0, 0.2, 1);
+}
+
+.user-container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  background: radial-gradient(circle, rgba(69, 4, 249, 1) 0%, rgba(21, 13, 105, 1) 100%);
+  color: white;
+}
+
+.user-image {
+  background-size: cover;
+  width: 90%;
+  height: auto;
+}
+
+.admin-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+h2 {
+  color: rgb(66, 66, 66);
+  font-weight: 300;
+  font-size: 40px;
+}
+
+h4 {
+  color: rgb(66, 66, 66);
+  font-weight: 300;
+}
+
+h5 {
+  color: rgb(66, 66, 66);
+  font-weight: 300;
+}
+
+.drag-full-width {
+  width: 100%;
+}
+
+.drag-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
