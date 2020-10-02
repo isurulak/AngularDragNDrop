@@ -2,10 +2,10 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.25.
 
 ## Live Demo
-https://xoriwqxbj.github.stackblitz.io
+https://github-fgafjz.stackblitz.io
 
 ## Stackblitz editor url
-https://xoriwqxbj.github.stackblitz.io
+https://stackblitz.com/edit/github-fgafjz?file=src/app/app.component.ts
 
 
 
